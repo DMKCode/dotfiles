@@ -1,5 +1,12 @@
 # New Mac Web Dev Setup scripts
 
+## Customizing
+I certainly do NOT recommend installing all of my setup without looking through what is happening and customizing it for yourself. Fork this repo and update anything you like.
+
+Look through the shell scripts  in `setup` folder to see what programs are being installed. You can add or remove everything from there. Most likely, if you are not a VIM power user you will want to modify some of the shell and atom plugins/config to suit yours preferences.
+
+You will also need to update the [gitconfig user info](https://github.com/colbycheeze/dotfiles/blob/master/gitconfig#L58-L66) unless you want all of your commits to appear like I made them :P
+
 ## Pre-Setup (If you don't have Homebrew and/or Github setup with SSH access)
 Install Homebrew and git, and set up SSH for Github
 ```bash
@@ -19,8 +26,3 @@ Manually Install latest (non beta) Xcode from the [app store](https://developer.
   1. Change key repeat rate / delay to fast/short in keyboard preferences
   1. Swap ESC and CAPS key in keyboard preferences (OSX Sierra now supports this)
   1. Connect iterm2 profile to dotfiles: [(instructions)](http://stackoverflow.com/a/25122646/4298624)
-
-## Customizing
-I certainly do NOT recommend installing all of my setup without looking through what is happening and customizing it for yourself. Fork this repo and update anything you like.
-
-Look through the shell scripts  in `setup` folder to see what programs are being installed. You can add or remove everything from there. Most likely, if you are not a VIM power user you will want to modify some of the shell and atom plugins/config to suit yours preferences.
